@@ -20,7 +20,7 @@ public class InformacoesUsuarioPageObjectsTest {
 
     @Before
     public void setUp(){
-        navegador = Web.createBrowserStack();
+        navegador = Web.createChrome();
     }
 
     @Test
